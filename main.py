@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-schedule.every(5).minutes.do(currentCryptoTradesUseCase)
+schedule.every(15).minutes.do(currentCryptoTradesUseCase)
 
 
 # schedule.every(5).seconds.do(currentCryptoTradesUseCase)
